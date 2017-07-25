@@ -1,5 +1,7 @@
 # bc-backend
 
+![](https://travis-ci.org/johan1a/bc-backend.svg?branch=master)
+
 generated using Luminus version "2.9.11.68"
 
 FIXME
