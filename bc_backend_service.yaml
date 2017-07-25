@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: bc-backend
+  name: bc-backend
+  namespace: default
+spec:
+  type: NodePort
+  ports:
+  - port: 3000
+    protocol: TCP
+  selector:
+    app: bc-backend
